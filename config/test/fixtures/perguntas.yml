@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usuario_id: 
+  conteudo_id: 
+  lista_id: 
+  texto: MyText
+  horario: 2014-09-25 16:45:14
+  n_respostas: 1
+  respondida: MyString
+  arquivo: MyString
+
+two:
+  usuario_id: 
+  conteudo_id: 
+  lista_id: 
+  texto: MyText
+  horario: 2014-09-25 16:45:14
+  n_respostas: 1
+  respondida: MyString
+  arquivo: MyString

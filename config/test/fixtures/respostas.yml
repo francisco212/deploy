@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pergunta_id: 
+  usuario_id: 
+  texto: MyText
+  util_s: 1
+  util_n: 1
+  horario: 2014-09-25 16:48:09
+  arquivo: MyString
+
+two:
+  pergunta_id: 
+  usuario_id: 
+  texto: MyText
+  util_s: 1
+  util_n: 1
+  horario: 2014-09-25 16:48:09
+  arquivo: MyString
