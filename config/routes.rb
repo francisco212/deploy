@@ -1,11 +1,23 @@
 Rails.application.routes.draw do
 
+
+ get 'login' => 'login_aluno#index', as: :login_form
+
+ post 'login_aluno/login', as: :login
+ get 'logout'=> 'login_aluno#logout', as: :logout
+
 	resources :conteudos
 	resources :listas
 	resources :perguntas
 	resources :respostas
+  resources :usuarios
 	
-	root 'home#index'
+
+
+
+   match 'usuarios/deletar/:id', controller: 'usuarios', action: 'destroy', via: 'get'
+   match 'conteudos/deletar/:id', controller: 'conteudos', action: 'destroy', via: 'get'
+   match 'listas/deletar/:id', controller: 'listas', action: 'destroy', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
